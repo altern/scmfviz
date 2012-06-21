@@ -1,0 +1,141 @@
+root { 
+    display: block;
+}
+body {
+    font-family: Verdana;
+}
+
+#description p {
+/*    padding: 11px 5px 5px 5px;*/
+    padding: 5px;
+    font-size: 0.9em;
+}
+#description img {
+    float: left; width: 30px; margin: 5px
+}
+#version_input {
+    margin: 5px 5px 0px 5px;
+    
+}
+#version_input>input[type=text] {
+    width:150px;
+    padding: 3px;
+    border: 1px solid grey;
+    font-size: 1.2em;
+    float:left;
+}
+#version_input>input[type=button] {
+    width: 100px;
+    font-size: 1.4em;
+    float:right;
+}
+#scmtree {
+    padding: 0px 5px;
+}
+#logger {
+    width: 255px;
+    margin: 5px;
+    position: relative;
+    float: left;
+    top: 150px;
+}
+#validation_output {
+    margin: 5px;
+}
+.scmf_action {
+    font-size: 0.8em;
+    color: #444;
+}
+.ygtvcell {
+    white-space: nowrap;
+}
+#rightFooter {
+    padding: 10px; 
+    text-align: left; 
+    border-top: 1px solid grey; 
+    font-size: 0.8em
+}
+#svnTreeActions {
+    margin-top: 5px ;
+}
+#repositoryURLId {
+    position:relative;
+    width:auto;
+}
+#repositoryURLAutoComplete {
+    text-align: left;
+    font-size: 0.8em;
+/*    width:15em;  set width here or else widget will expand to fit its container */
+    padding-bottom:2em;
+}
+.yui-dt-rec {
+    cursor: pointer;
+}
+#editProjectFormId td{
+    padding: 2px;
+}
+#createPlatform, #createDeploymentRule {
+    margin: 10px 0px;
+}
+#createPlatform button, #createDeploymentRule button{
+    background: url(../img/add.gif) 10% 50% no-repeat;
+    padding-left: 3em; 
+}
+#platformInfoTable td {
+    border: 1px solid #bbb;
+    padding: 5px;
+    margin: 2px;
+}
+.versionCategory {
+    float: left;
+    margin: 5px;
+    border: 1px solid #bbb;
+    background-color: #ddd;
+}
+.platformVersions {
+    background-color: #ddd;
+}
+.platformVersions ul {
+/*    border: 1px solid #fff;*/
+    padding-top: 5px;
+}
+.platformVersions li {
+    padding: 2px 5px;
+}
+.platformVersions b {
+    padding: 10px 5px;
+}
+.platformVersions li.hasLink:hover { 
+    background-color: #eee;
+    cursor: pointer;
+}
+li.latestVersion.hasLink:hover {
+    background-color: #8CF58F;
+}
+.latestVersion {
+    background-color: #6DF771;
+}
+#bottom {
+    padding: 8px;
+    font-size: 0.8em;
+}
+#version {
+    float: left;
+}
+#author {
+    float: right
+}
+#logos {
+    position: relative;
+    top: -3px;
+    margin: 0px 30px;
+    float: left;
+}
+#logos a {
+    padding: 0px 5px;
+}
+.treeloading {
+    position: relative;
+    left: 35px;
+    top: 200px;
+}
